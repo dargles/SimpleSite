@@ -5,7 +5,7 @@
  * its own section, "container"
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 08-12-2013, 08:59h
+ * @version 29-12-2013, 16:55h
  * @copyright 2013 Haven Consulting
  */
 
@@ -47,9 +47,10 @@ header img
   position:fixed;
   top:0px;
   margin:0px 0px 0 0px;
-  padding:0px 20px 2px 20px;
+  padding:0px 440px 2px 20px;
   background-color:black;
-  border-radius:10px 0px 0px 10px;
+  border-radius:0px 0px 10px 10px;
+  box-shadow:0px 10px 20px 0px rgba(255,255,255,0.6);
 }
 banner
 {
@@ -57,7 +58,30 @@ banner
   background-image:url('../graphics/banner.jpeg');
   height:0px;
 }
-nav{margin-right:0;position:fixed;top:00px;}
+nav
+{
+  margin-right:0;
+  position:fixed;
+  top:00px;
+  margin-right:auto;
+  /*background-color:black;*/
+  text-align:center;
+  border-radius:0px 0px 10px 10px;
+  /*box-shadow:0px 10px 20px 0px rgba(255,255,255,0.6);*/
+  /*background-image:url('../graphics/banner.jpeg');*/
+}
+nav a
+{
+  display:block;
+  float:left;
+  background-color:black;
+  color:white;
+  padding:0.35em 1em 0 0em;
+  text-align:center;
+  /*border-radius:10px 10px 10px 10px;*/
+}
+nav a:hover{color:#ccc;}
+nav a.current{color:gray;}
 nav a:link, a:visited{text-decoration:none;}
 
 section
@@ -73,12 +97,16 @@ section table{padding-left:20px;font-style:italic;}
 section td.wide{width:15em;}
 section td.r-align{text-align:right;}
 section img{display:block; margin-left:auto; margin-right:auto;}
-section a{color:#ccf;}
+section a
+{
+  color:#99f;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
 
 footer
 {
   font-style:italic;
-  color:#c99;
+  color:#999;
   background-color:rgba(00,00,00,0.5);
   padding:10px 10px 10px 0px;
   border-radius:0px 0px 10px 10px;
@@ -88,29 +116,38 @@ footer
  */
 @media screen and (max-width:480px)
 {
-    header h3{margin-left:75px;font-size:1.5em;}
-    header p{margin-left:85px;font-size:0.9em;}
-    header img{height:50px;float:left;margin:3px 10px 0 5px;}
-	nav
+    header h3{margin-left:10px;font-size:1.5em;}
+    header p{margin-left:20px;font-size:0.9em;}
+    header img{height:24px;padding-left:20px;padding-right:247px;}
+    /*header img{height:50px;float:left;margin:3px 10px 0 5px;}*/
+	/*nav
 	{
 	  background-color:#ccc;
 	  margin-top:0;
       overflow:hidden;
 	  padding:0.6em 0.4em 0em 10px;
       font-size:small;
-	}
+	}*/
+	nav
+	{
+	  /*margin-left:35px;
+	  padding-left:0px;*/
+	  min-width:300px;
+	  margin-left:0;
+	  padding-left:10px;
+      height:2em;
+      font-size:small;
+    }
 	nav a
 	{
-	  background-color:#aaa;
-	  padding:0.3em;
+	  padding:0.2em;
 	  margin-right:0.2em;
       padding-bottom:4px;
-	  border-width:0em;
-	  border-radius:5px 5px 0px 0px;  
+	  /*border-width:0em;
+	  border-radius:5px 5px 0px 0px;*/  
 	}
-	nav a:hover{color:#ccc;}
-	nav a.current{background-color:white;}
-    section{margin:10px;}
+
+    section{padding:10px;}
     section h3{font-size:1.1em;}
     section {font-size:small;}
     section img{width:280px;}
@@ -122,34 +159,20 @@ footer
  */
 @media screen and (min-width:481px) and (max-width:600px)
 {
-    header h3{margin-left:75px;}
-    header p{margin-left:85px;}
-    header img{height:50px;float:left;margin:8px 10px 0 5px;}
+    header h3{margin-left:10px;}
+    header p{margin-left:20px;}
+    header img{padding-left:13px;padding-right:380px}
+    /*header img{height:50px;float:left;margin:8px 10px 0 5px;}*/
 	nav
 	{
-	  margin:0 auto;
+	  margin-left:50px;
 	  padding-left:10px;
-	  background-color:black;
-      text-align:center;
       height:2em;
-          /*width:100%;*/
 	}
-	nav a
-	{
-      display:block;
-      float:left;
-	  background-color:black;
-      color:white;
-	  padding:0.35em 1em 0 0;
-	  /*width:90px;*/
-	  text-align:center;
-	}
-	nav a:hover{color:#ccc;}
-	nav a.current{color:gray;}
 
 	section
 	{
-	  margin:0 10px 0 10px;
+	  padding:20px 10px 20px 10px;
 	}
 	footer
 	{
@@ -162,30 +185,15 @@ footer
  */
 @media screen and (min-width:601px)
 {
+    /*header img{margin-right:20px;}*/
 	nav
 	{
-	  margin-left:79px;
-	  background-color:black;
-      text-align:center;
+	  margin-left:60px;
       height:2em;
-      padding-left:31px;
+      padding-left:50px;
       width:100%
       border-radius:10px 10px 10px 10px;
-
 	}
-	nav a
-	{
-      display:block;
-      float:left;
-	  background-color:black;
-      color:white;
-	  padding:0.35em 1em 0 0em;
-	  /*width:90px;*/
-	  text-align:center;
-	  border-radius:0px 10px 10px 0px;
-	}
-	nav a:hover{color:#ccc;}
-	nav a.current{color:gray;}
 
 	section
 	{
