@@ -18,6 +18,7 @@
      Don't change these lines! */
   require("library/htmlPage.php");
   $page = new htmlPage();
+  $page->setCSS("fixed-menu.css");
   /* The next line streams the initial html.  Don't change this. */
   $page->HTMLstreamTop();
 ?>

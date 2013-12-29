@@ -15,35 +15,38 @@
 body
 {
   font-family:verdana,arial,sans-serif;
-  background-color:#cc9;
+  /*background-color:#cc9;*/
+  background-image:url('../graphics/desert-island.jpeg');
+  background-size:cover;
+  /*opacity:0.5;*/
 }
 container
 {
   display:block;
-  max-width:850px;
+  max-width:790px;
   min-width:300px;
   /* min-height:100%; */
   margin:0 auto;
-  background-color:white;
-  border-radius:10px 10px 10px 10px;
-  box-shadow: 	0px 10px 20px rgba(0,0,0,0.6);
+  /*background-color:white;*/
+  opacity:0.8;
 }
 header
 {
-  color:black;
+  color:white;
   margin-bottom:0;
   padding:5px 0 5px 0px;
   border-radius:10px 10px 0px 0px;
   text-align:left;
+  background-color:rgba(255,0,0,0);
 }
-header h3{font-size:2em;padding:0px;margin:0.2em 10px 0 110px;}
-header p{font-size:1em;font-style:italic;padding:2px 0 5px 0px;margin:0 0 0 120px;}
-header img{height:50px;float:left;margin:8px 10px 0 30px;}
+header h3{font-size:2em;padding:0px;margin:0.2em 10px 0 80px;}
+header p{font-size:1em;font-style:italic;padding:2px 0 5px 0px;margin:0 0 0 90px;}
+header img{height:50px;float:left;margin:8px 10px 0 0px;}
 banner
 {
-  display:block;
-  background-image:url('../graphics/banner.jpeg');
-  height:110px;
+  /*display:block;
+  background-image:url('../graphics/banner.jpeg');*/
+  height:0px;
 }
 nav a:link, a:visited{text-decoration:none;}
 
@@ -51,6 +54,8 @@ section
 {
   background-color:white;
   padding:10px 0 10px 0px;
+  border-radius:10px 10px 0px 0px;
+  box-shadow:0px 10px 20px rgba(0,0,0,0.6);
 }
 section h3{padding-left:0px;}
 section p{padding:0 10px 0 10px;}
@@ -58,7 +63,7 @@ section p.centre{text-align:center}
 section table{padding-left:20px;font-style:italic;}
 section td.wide{width:15em;}
 section td.r-align{text-align:right;}
-section img{display:block; margin-left:auto; margin-right:auto;}
+section img{display:block; max-width:400px; margin-left:auto; margin-right:auto;}
 
 footer
 {
@@ -83,6 +88,8 @@ footer
       overflow:hidden;
 	  padding:0.6em 0.4em 0em 10px;
       font-size:small;
+        border-radius:10px 10px 0px 0px;
+
 	}
 	nav a
 	{
@@ -95,12 +102,11 @@ footer
 	}
 	nav a:hover{color:#ccc;}
 	nav a.current{background-color:white;}
-    section{margin:10px;}
+    section{padding:10px;font-size:small;border-radius:0px 0px 0px 0px;}
     section h3{font-size:1.1em;}
-    section {font-size:small;}
     section img{width:280px;}
     section table{font-size:small;}
-    footer {margin-left:10px;font-size:small;}
+    footer {padding-left:10px;font-size:small;}
 }
 /**
  * The following section defines attributes specific to intermediate widths
@@ -134,12 +140,14 @@ footer
 
 	section
 	{
-	  margin:0 10px 0 10px;
+	  margin-top:20px;
+	  padding:10px 10px 20px 10px;
 	}
+	section img{ margin-left:auto; margin-right:auto;}
 	footer
 	{
-	  margin-left:10px;
-	  border-radius:0px 0px 10px 0px;
+	  padding-left:10px;
+	  border-radius:0px 0px 10px 10px;
 	}
 }
 /**
@@ -153,7 +161,7 @@ footer
 	  background-color:black;
       text-align:center;
       height:2em;
-      padding-left:110px;
+      padding-left:80px;
       /*width:100%;*/
 	}
 	nav a
@@ -171,12 +179,14 @@ footer
 
 	section
 	{
-	  margin:0 120px 0 110px;
+	  margin:20px 0px 0 0px;
+	  padding:10px 80px 10px 80px;
 	}
 	footer
 	{
-	  margin-left:110px;
-	  border-radius:0px 0px 10px 0px;
+	  margin:0px 0px 0px 0px;
+	  padding:10px 80px 10px 80px;
+	  border-radius:0px 0px 10px 10px;
 	}
 }
 /**---------------------------------------------
