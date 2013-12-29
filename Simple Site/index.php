@@ -36,9 +36,62 @@
       </aside>
       -->
 
-      <h3>Castle Sailing Club</h3>
-      <img src="graphics/bosham.jpg">
-      <p>Castle Sailing Club is a relaxed dinghy sailing club with all-tide access to Southampton Water and the Solent.  It is based at the tip of Calshot Spit in Southampton Water, close to Calshot Castle, the historic flying boat hangers, and Calshot Activities Centre.  The Centre is one of the country's most popular watersports locations which also has a state of the art climbing complex, the only indoor velodrome in southern England, a dry ski slope, and extensive camping facilities.</p>
+      <h3>About SimpleSite</h3>
+      <p>SimpleSite is a website template that is designed to be quick and 
+      	easy to install and set up.  It arose out of an observation that the 
+      	80% rule applies to websites - that 80% of websites use 20% of 
+      	available features 80% of the time.  That, and the fact that I needed 
+      	to set up a couple of small websites in a hurry, and that I had 
+      	something to hand that would do the job just fine.
+      </p>
+      	
+      <p>You see, I'd been developing a website example for my students so 
+      	they could see how easy it is to create good quality sites with 
+      	standard HTML5 and CSS3.  Having developed the example over several 
+      	sessions, it dawned on me that it could be used for real projects.  
+      	SimpleSite is the result.    	
+      </p>
+      
+      <h3>Rationale</h3>
+      <p>It's worth taking a moment to understand the rationale behind 
+      	SimpleSite.  I guess it could be summed up by noting that it's good 
+      	to "Kiss your dry socks".  For any web project, it's a good idea to:
+      </p>
+      <ul>
+      	<li><b>KISS</b>: Keep It Stupidly Simple.  Be ruthless about avoiding 
+      		unnecessary complication.</li>
+      	<li><b>DRY</b>: Don't Repeat Yourself.  If you need to make the same 
+      		change in two different places, you've failed.</li>
+      	<li><b>SOC</b>: Separation Of Concerns.  Think of content, and structure, 
+      		and "Look and Feel" as three different things.  Don't mix them up.</li>
+      </ul>
+      <p>So in SimpleSite, structure is handled by a file called "htmlPage.php".  
+      	Look and Feel is handled by the CSS file.  Both htmlPage.php and the 
+      	CSS file are stored in the "library".  The content is contained in 
+      	several "php" pages (one for each visible page) which consist nearly 
+      	entirely of content marked up in simple HTML. 
+      </p>
+      
+      <p>This website is itself built using SimpleSite.  Well, you wouldn't 
+      	expect otherwise, really, would you?  The only way I've cheated is that 
+      	SimpleSite provides four different CSS files to show what can be 
+      	achieved.  In order to demonstrate this, I've made each page on this 
+      	site pull in a different CSS file, so you can get some idea of what the 
+      	four standard designs look like.  It makes it a bit of a pain 
+      	switching from page to page, but it does give a few ideas of what's 
+      	possible.  If you're willing to play with the CSS files yourself, 
+      	I'd love to hear from you to see what you produce.
+      </p>
+      
+      <p>Oh, by the way, it has been suggested I should charge for SimpleSite.  
+      	However, I'm an academic, so charging for things like this goes against 
+      	the grain.  It does have a Creative Commons licence though, so if you 
+      	want to use it to make serious money, talk to me.  Either that, or go 
+      	ahead anyway and then talk to my lawyers ;-) .  But for the rest of 
+      	you, I shall be thrilled if you find this useful.  Just 
+      	<a href="mailto:d.argles@gmx.com">email me</a> and 
+      	let me know how you get on with it.
+      </p>
 
       <!-- End of main page content -->
 <?php
