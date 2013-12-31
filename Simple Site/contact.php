@@ -6,7 +6,7 @@
  * & streams the completed boilerplate code.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 08-12-2013, 00:10h
+ * @version 31-12-2013, 12:16h
  * @copyright 2013 Haven Consulting
  */
 
@@ -23,12 +23,29 @@
   $page->HTMLstreamTop();
 ?>
 
-      <h3>Contact</h3>
-      <p>If you want to discuss membership or anything to do with the activity of the Castle Sailing Club, please contact Jamie Cordery, preferably by email, on:</p>
-      <p class="centre"><a href=\"mailto:castlesailingclub@gmail.com\">castlesailingclub@gmail.com</a></p>
-      <p>or by 'phone on:</p>
-      <p class="centre">01962 711 389</p>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=328740000545123";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
+      <h3>Contact</h3>
+      <p>SimpleSite is freely downloadable, so you can just go ahead, 
+      	download it, and play with it.  If you do have a look at it, I'd 
+      	really like to hear from you, preferably by email, on:</p>
+      <p class="centre"><a href=\"mailto:d.argles@gmx.com\">
+      	d.argles@gmx.com</a></p>
+      	
+      <h3>Discussion</h3>
+      <p>There's the opportunity to discuss SimpleSite by using the 
+      	Facebook facility below:</p>
+      <div class="centre">
+      <div class="fb-comments" data-href="http://argles.org/simplesite/contact.php" data-width="400" data-numposts="5" data-colorscheme="dark"></div>
+      </div>
+      
 <?php
   /* The final line streams the final html.  Don't change this. */
   $page->HTMLstreamBottom();

@@ -43,11 +43,7 @@
         <tr><td>4.5m to 5.5m</td>		<td class="r-align">&nbsp;&nbsp;&pound;163.00</td></tr>
       </table>
 
-      <h3>How to Apply</h3>
-      <p>If you are associated with Hampshire County Council and would like to discuss membership of the Castle Sailing Club, please contact Jamie Cordery, preferably by email, on:</p>
-      <p class="centre"><a href=\"mailto:castlesailingclub@gmail.com\">castlesailingclub@gmail.com</a></p>
-      <p>or by 'phone on:</p>
-      <p class="centre">01962 711 389</p>
+
 
 <?php
   /* The final line streams the final html.  Don't change this. */
