@@ -6,8 +6,8 @@
  * & streams the completed boilerplate code.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 31-12-2013, 22:33h
- * @copyright 2013 Haven Consulting
+ * @version 01-01-2014, 08:20h
+ * @copyright 2014 Haven Consulting
  */
 
   /* The following line makes the server display error messages.
@@ -25,12 +25,12 @@
 
       <h3>Installation</h3>
       <p>
-      	I'd <i>like</i> to go through a little explanation of how SimpleSite is 
+      	I'd <i>like</i> to go through a little explanation of how TrimSite is 
       	set up and how it works <i>before</i> you get down to installing it 
       	and exploring what it can do.  But let's be honest, that's never 
       	going to happen - you are like me, and just want to get your hands 
       	on the code and to explore it.  There's quite a bit of internal 
-      	documentation in the SimpleSite package, so this page is going to be 
+      	documentation in the TrimSite package, so this page is going to be 
       	a basic "this is how you get started" offering.  When you get stuck, 
       	either read the documentation, or use the <a href="contact.php">
       	comments section</a> in the comments page.
@@ -39,35 +39,34 @@
       <h3>Step by Step</h3>
       <p>
       	The following step-by-step guide is designed to indicate the bare 
-      	minimum required to get a SimpleSite up and running. If you don't 
+      	minimum required to get a TrimSite up and running. If you don't 
       	understand any of these steps, then you need to switch to the 
       	<a href="documentation/howto.txt">howto guide</a> where there is more 
       	detail given.
       </p>
       <ol>
-      	<li><a href="download/simplesite.zip">Download</a> the code.  This 
-      		is a zip file, so...</li>
+      	<li><a href="download/TrimSite.zip">Download</a> the code.  This 
+      		is a zip file, so...
+      	</li>
       	<li>...unzip the files.  There will be three directories (documentation, 
       		graphics, and library), two php pages (index.php and next.php) and 
-      		a readme.txt file.</li>
-      	<li>
-      		Copy all of these into your web directory.
+      		a readme.txt file.
       	</li>
-      	<li>
-      		Go into the library directory and edit htmlPage.ini (in a text 
-      		editor).  The main things to change in this file are heading and 
-      		tagline - these determine what appears at the head of every page.
+      	<li>Copy all of these into your web directory.  Which you have previously 
+      		prepared and set up ready to go, haven't you... ;-)
       	</li>
-      	<li>
-      		You'll also need to change the section under [menu].  What 
+      	<li>Go into the library directory and edit htmlPage.ini (in a text 
+      		editor).  The main things to change in this file are "heading" and 
+      		"tagline" - these determine what appears at the head of every page.
+      	</li>
+      	<li>You'll also need to change the section under [menu].  What 
       		follows determines the labels used on the menu bar, and the pages 
-      		that they point to.  You could leave the first entry as Home = 
-      		index.php, but maybe change the second entry to whatever you fancy.  
+      		that they point to.  You could leave the first entry as "Home = 
+      		index.php", but maybe change the second entry to whatever you fancy.  
       		But make sure that any page you specify in this section actually 
       		exists! 
       	</li>
-      	<li>
-      		Finally, edit your php pages (again in a text editor) to say what 
+      	<li>Finally, edit your php pages (again in a text editor) to say what 
       		you want them to.  Make sure that the file names of your pages 
       		match the filenames you put in htmlPage.ini.
       	</li>
