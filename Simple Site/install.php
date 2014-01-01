@@ -41,11 +41,12 @@
       	The following step-by-step guide is designed to indicate the bare 
       	minimum required to get a TrimSite up and running. If you don't 
       	understand any of these steps, then you need to switch to the 
-      	<a href="documentation/howto.txt">howto guide</a> where there is more 
+      	<a href="documentation/quickstart.txt" target="_blank">quickstart guide</a> or the
+      	<a href="documentation/howto.txt" target="_blank">howto guide</a> where there is more 
       	detail given.
       </p>
       <ol>
-      	<li><a href="download/TrimSite.zip">Download</a> the code.  This 
+      	<li><a href="download/trimsite.zip">Download</a> the code.  This 
       		is a zip file, so...
       	</li>
       	<li>...unzip the files.  There will be three directories (documentation, 
