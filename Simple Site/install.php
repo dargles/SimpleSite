@@ -6,7 +6,7 @@
  * & streams the completed boilerplate code.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 08-12-2013, 08:15h
+ * @version 31-12-2013, 22:33h
  * @copyright 2013 Haven Consulting
  */
 
@@ -23,16 +23,76 @@
   $page->HTMLstreamTop();
 ?>
 
-      <h3>Sailing</h3>
-      <p>Novices can gain confidence in the sheltered waters of the lagoon and in the area directly off the slipway.  Calshot Acitivities Centre runs regular dinghy training courses.</p>
-      <p>Launching and recovery is possible at all states of the tide.  Close by are Ashlett Creek, Southampton Water and the River Hamble.  Our location at the centre of the Solent means easy access to the Bromwich beaches, Beaulieu River and on the Island side, Wooton, Cowes and Newtown Creek.  Sailors will also see the regular movements of Southampton Port shipping and the action surrounding events like Cowes Week and teh Round the Island race.</p>
-      <p>The club has no safety boat and thus has no formal racing or training propgramme.  We are however affiliated with the Southampton Water Sailing Association which has a race programme for members.</p>
-
-      <img src="graphics/SO451BR-Calshot.jpg" />
-
-      <h3>Facilities</h3>
-      <p>There are basic facilities (kettle and microwave) in the clubhouse with changing facilities and limited equipment storage.  The clubhouse is on the shore side of the secure Calshot Activities Centre sailing compound.  Toilets and showers are provided nearby.</p>
-      <p>We have a boat park close to the clubhouse, behind Stainforth Cottage with at least 24 spaces and boat washing facilities.</p>
+      <h3>Installation</h3>
+      <p>
+      	I'd <i>like</i> to go through a little explanation of how SimpleSite is 
+      	set up and how it works <i>before</i> you get down to installing it 
+      	and exploring what it can do.  But let's be honest, that's never 
+      	going to happen - you are like me, and just want to get your hands 
+      	on the code and to explore it.  There's quite a bit of internal 
+      	documentation in the SimpleSite package, so this page is going to be 
+      	a basic "this is how you get started" offering.  When you get stuck, 
+      	either read the documentation, or use the <a href="contact.php">
+      	comments section</a> in the comments page.
+      </p>
+      
+      <h3>Step by Step</h3>
+      <p>
+      	The following step-by-step guide is designed to indicate the bare 
+      	minimum required to get a SimpleSite up and running. If you don't 
+      	understand any of these steps, then you need to switch to the 
+      	<a href="documentation/howto.txt">howto guide</a> where there is more 
+      	detail given.
+      </p>
+      <ol>
+      	<li><a href="download/simplesite.zip">Download</a> the code.  This 
+      		is a zip file, so...</li>
+      	<li>...unzip the files.  There will be three directories (documentation, 
+      		graphics, and library), two php pages (index.php and next.php) and 
+      		a readme.txt file.</li>
+      	<li>
+      		Copy all of these into your web directory.
+      	</li>
+      	<li>
+      		Go into the library directory and edit htmlPage.ini (in a text 
+      		editor).  The main things to change in this file are heading and 
+      		tagline - these determine what appears at the head of every page.
+      	</li>
+      	<li>
+      		You'll also need to change the section under [menu].  What 
+      		follows determines the labels used on the menu bar, and the pages 
+      		that they point to.  You could leave the first entry as Home = 
+      		index.php, but maybe change the second entry to whatever you fancy.  
+      		But make sure that any page you specify in this section actually 
+      		exists! 
+      	</li>
+      	<li>
+      		Finally, edit your php pages (again in a text editor) to say what 
+      		you want them to.  Make sure that the file names of your pages 
+      		match the filenames you put in htmlPage.ini.
+      	</li>
+      </ol>
+      
+      <p>
+      	Save all your changes and then check the results in a web browser.  
+      	So far, it should be nothing too exciting.  However, it should 
+      	already be obvious that adding page content is pretty straightforward.  
+      	Just keep it simple - try and stick with &lt;h3&gt; for headings and 
+      	a simple &lt;p&gt; for paragraphs. 
+      </p>
+      <p>
+      	Once you're happy with the basic content, You'll want to play with 
+      	things like the logo and the banner graphic.  And maybe play with the 
+      	different CSS files.  Just to get you started, the (limited) default 
+      	options are: 
+      </p>
+      <table>
+      	<tr><td>Logo:</td><td>logo-haven.png<br />logo-pennant.png</td></tr>
+      	<tr><td>Banner:</td><td>banner.jpeg<br />seascapes.jpg</td></tr>
+      	<tr><td>CSS files:</td><td>htmlPage.css<br />back-pic.css<br />
+      		left-menu.css<br />fixed-menu.css</td></tr>
+      	<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+      </table>
 
 <?php
   /* The final line streams the html.  Don't change this. */

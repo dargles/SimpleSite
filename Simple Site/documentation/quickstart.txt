@@ -28,7 +28,7 @@ If you want to update the content of a particular page:
  3) When you've made a change, you really ought to:
     - update the @version line towards the top of the file; and
     - update the updates.txt file in the <documentation> directory.
-    It's important to make a note of the changes you make and ehen you made them.
+    It's important to make a note of the changes you make and when you made them.
 
 If you want to add a page to the site:
 

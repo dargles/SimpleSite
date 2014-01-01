@@ -48,6 +48,7 @@ banner
   background-image:url('../graphics/banner.jpeg');*/
   height:0px;
 }
+nav {border-radius:10px 10px 10px 10px;}
 nav a:link, a:visited{text-decoration:none;}
 
 section
@@ -60,7 +61,9 @@ section
 section h3{padding-left:0px;}
 section p{padding:0 10px 0 10px;}
 section p.centre{text-align:center}
-section table{padding-left:20px;font-style:italic;}
+section table{margin-left:auto; margin-right:auto; font-style:italic;}
+section td{margin:0;border-width:1px 0 0px 0;border-style:solid;}
+section td{padding-right:5px;}
 section td.wide{width:15em;}
 section td.r-align{text-align:right;}
 section img{display:block; max-width:400px; margin-left:auto; margin-right:auto;}
