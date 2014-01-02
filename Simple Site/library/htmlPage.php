@@ -58,7 +58,7 @@
     /**
      * Defines the copyright text for the bottom of the page 
      */
-    protected $copy = "2013 Haven Consulting";
+    protected $footer = "&copy;2013 Haven Consulting";
 
 /**
  * setCSS() allows us to change the css file used for a particular page
@@ -104,7 +104,7 @@ echo("</pre>");*/
         $this->tagline = $iniFile->tagline;
         $this->logo = $iniFile->logo;
         $this->menu = (object) $iniFile->menu;
-        $this->copy = $iniFile->copyright;
+        $this->footer = $iniFile->footer;
 
         $this->page = substr(strrchr($_SERVER['PHP_SELF'],"/"),1);
         foreach($this->menu as $label=>$link){
@@ -167,7 +167,7 @@ echo("</pre>");*/
     </section>
 
     <footer>
-      <?php echo("<p>&copy;".$this->copy."</p>\n"); ?>
+      <?php echo("<p>".$this->footer."</p>\n"); ?>
     </footer>
    </container>
   </body>
