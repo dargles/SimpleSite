@@ -39,7 +39,7 @@
       <p class="centre"><a href=\"mailto:d.argles@gmx.com\">
       	d.argles@gmx.com</a></p>
       	
-      <h3>Discussion</h3>
+      <h3 id="discussion">Discussion</h3>
       <p>There's the opportunity to discuss TrimSite by using the 
       	Facebook facility below:</p>
       <div class="centre">

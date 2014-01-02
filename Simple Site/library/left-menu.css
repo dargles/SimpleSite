@@ -34,19 +34,19 @@ header
   /*background-color:white;*/
   background-image:url('../graphics/seascapes.jpg');
   background-size:cover;
-  margin:0 140px 0 140px;
+  margin:0 120px 0 120px;
   padding:5px 0 80px 0px;
   border-radius:10px 10px 0px 0px;
   text-align:left;
 }
 header h3{font-size:2em;padding:0px;margin:0.8em 10px 0 10px;}
 header p{font-size:1em;font-style:italic;padding:2px 0 5px 0px;margin:0 0 0 20px;}
-header img{height:50px;float:left;margin:8px 10px 0 -100px;}
+header img{height:50px;float:left;margin:30px 10px 0 -90px;}
 banner
 {
   display:block;
   background-image:url('../graphics/banner.jpeg');
-  margin:0 140px 0 140px;
+  margin:0 120px 0 120px;
   height:0px;
 }
 nav a:link, a:visited{text-decoration:none;}
@@ -55,11 +55,12 @@ section
 {
   background-color:white;
   padding:10px;
-  margin:0 140px 0 140px;
+  margin:0 120px 0 120px;
 }
 section h3{padding-left:0px;}
 section p{padding:0 10px 0 10px;}
 section p.centre{text-align:center}
+section ul li{padding:0.5em 0 0.5em 0;}
 section table{padding-left:20px;font-style:italic;}
 section td.wide{width:15em;}
 section td.r-align{text-align:right;}
@@ -82,7 +83,7 @@ footer
     header{margin:0 10px 0 10px;padding-bottom:60px;}
     header h3{margin-left:75px;font-size:1.5em;}
     header p{margin-left:85px;font-size:0.9em;}
-    header img{height:50px;float:left;margin:3px 10px 0 5px;}
+    header img{height:50px;float:left;margin:20px 10px 0 5px;}
     banner{margin:0 10px 0 10px;}
 	nav
 	{
@@ -128,7 +129,7 @@ footer
       text-align:center;
       height:2em;
       float:left;
-      width:120px;
+      width:100px;
 }
 	nav a
 	{
@@ -146,11 +147,11 @@ footer
 
 	section
 	{
-	  margin:0 0px 0 140px;
+	  margin:0 0px 0 120px;
 	}
 	footer
 	{
-	  margin-left:140px;
+	  margin-left:120px;
 	  border-radius:0px 0px 10px 0px;
 	}
 }
@@ -168,7 +169,7 @@ footer
       height:2em;
       padding:10px;
       float:left;
-      width:120px;
+      width:100px;
 }
 	nav a
 	{
@@ -186,11 +187,11 @@ footer
 
 	section
 	{
-	  margin:0 140px 0 140px;
+	  margin:0 120px 0 120px;
 	}
 	footer
 	{
-	  margin:0 140px 0 140px;
+	  margin:0 120px 0 120px;
 	  border-radius:0px 0px 0px 0px;
 	}
 }

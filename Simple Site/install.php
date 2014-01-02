@@ -32,7 +32,7 @@
       	on the code and to explore it.  There's quite a bit of internal 
       	documentation in the TrimSite package, so this page is going to be 
       	a basic "this is how you get started" offering.  When you get stuck, 
-      	either read the documentation, or use the <a href="contact.php">
+      	either read the documentation, or use the <a href="contact.php#discussion">
       	comments section</a> in the comments page.
       </p>
       
