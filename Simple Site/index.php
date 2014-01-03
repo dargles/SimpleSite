@@ -37,6 +37,7 @@
       -->
 
       <h3>About TrimSite</h3>
+      <img class="right" src="graphics/castle-sm.png" alt="[Castle SC screenshot]"/>
       <p>TrimSite is a website template that is designed to be quick and 
       	easy to install and set up.  It arose out of an observation that the 
       	80% rule applies to websites - that 80% of websites use 20% of 
@@ -45,6 +46,7 @@
       	something to hand that would do the job just fine.
       </p>
       	
+      <img class="left" src="graphics/island-sm.png"  alt="[Island screenshot]"/>
       <p>You see, I'd been developing a website example for my students so 
       	they could see how easy it is to create good quality sites with 
       	standard HTML5 and CSS3.  Having developed the example over several 
@@ -65,6 +67,7 @@
       	<li><b>SOC</b>: Separation Of Concerns.  Think of content, and structure, 
       		and "Look and Feel" as three different things.  Don't mix them up.</li>
       </ul>
+      <img class="right" src="graphics/sidebar-sm.png"  alt="[Sidebar screenshot]"/>
       <p>So in TrimSite, structure is handled by a file called "htmlPage.php".  
       	Look and Feel is handled by the CSS file.  Both htmlPage.php and the 
       	CSS file are stored in the "library".  The content is contained in 
@@ -72,6 +75,7 @@
       	entirely of content marked up in simple HTML. 
       </p>
       
+      <img class="left" src="graphics/spiffin-sm.png"  alt="[Spiffin screenshot]"/>
       <p>This website is itself built using TrimSite.  Well, you wouldn't 
       	expect otherwise, really, would you?  The only way I've cheated is that 
       	TrimSite provides four different CSS files to show what can be 
@@ -83,6 +87,7 @@
       	I'd love to hear from you to see what you produce.
       </p>
       
+      <img class="right" src="graphics/firefox-sm.png"  alt="[Fire Fox screenshot]"/>
       <p>Oh, by the way, it has been suggested I should charge for TrimSite.  
       	However, I'm an academic, so charging for things like this goes against 
       	the grain.  It does have a Creative Commons licence though, so if you 

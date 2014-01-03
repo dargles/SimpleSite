@@ -36,7 +36,7 @@
       <p>TrimSite is freely downloadable, so you can just go ahead, 
       	download it, and play with it.  If you do have a look at it, I'd 
       	really like to hear from you, preferably by email, on:</p>
-      <p class="centre"><a href=\"mailto:d.argles@gmx.com\">
+      <p class="centre"><a href="mailto:d.argles@gmx.com">
       	d.argles@gmx.com</a></p>
       	
       <h3 id="discussion">Discussion</h3>

@@ -6,7 +6,7 @@
  * re-use on every page.
  * 
  * @author David Argles <d.argles@gmx.com>
- * @version 16-12-2013, 06:08h
+ * @version 03-01-2014, 14:11h
  * @copyright 2013 Haven Consulting
  */
 
@@ -123,12 +123,13 @@ echo("</pre>");*/
     public function HTMLstreamTop()
     {
 ?>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta generator="SimpleSite 1.0">
-    <meta author="Haven Consulting: d.argles@gmx.com">
+    <meta name="generator" content="TrimSite 1.0">
+    <meta name="author" content="Haven Consulting: d.argles@gmx.com">
     <link rel="stylesheet" type="text/css" <?php echo("href=\"library/".$this->cssfile."\""); ?>>
     <title><?php echo($this->title); ?></title>
   </head>
@@ -136,7 +137,7 @@ echo("</pre>");*/
   <body>
     <container> 
       <header>
-        <?php echo("<img src=\"graphics/".$this->logo."\" />\n"); ?>
+        <?php echo("<img src=\"graphics/".$this->logo."\" alt=\"[Site Logo]\" />\n"); ?>
         <h3><?php echo($this->heading); ?></h3>
         <p><?php echo($this->tagline); ?></p>
       </header>
@@ -151,7 +152,7 @@ echo("</pre>");*/
         ?>
       </nav>
 
-    <section>
+      <section>
 <?php 
     }
 
@@ -164,12 +165,12 @@ echo("</pre>");*/
     public function HTMLstreamBottom()
     {
 ?>
-    </section>
+      </section>
 
-    <footer>
-      <?php echo("<p>".$this->footer."</p>\n"); ?>
-    </footer>
-   </container>
+      <footer>
+        <?php echo("<p>".$this->footer."</p>\n"); ?>
+      </footer>
+    </container>
   </body>
 </html>
 <?php 

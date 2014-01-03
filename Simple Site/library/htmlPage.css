@@ -59,6 +59,8 @@ section table{padding-left:20px;font-style:italic;}
 section td.wide{width:15em;}
 section td.r-align{text-align:right;}
 section img{display:block; margin-left:auto; margin-right:auto;}
+section img.right{float:right; height:120px; margin-left:10px;}
+section img.left{float:left; height:120px; margin-right:10px;}
 
 footer
 {

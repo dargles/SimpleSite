@@ -46,8 +46,8 @@
       	detail given.
       </p>
       <ol>
-      	<li><a href="download/trimsite.zip">Download</a> the code.  This 
-      		is a zip file, so...
+      	<li><a href="download/trimsite.zip">Download</a> the code (it's about 
+      	    1Mb).  This is a zip file, so...
       	</li>
       	<li>...unzip the files.  There will be three directories (documentation, 
       		graphics, and library), two php pages (index.php and next.php) and 
