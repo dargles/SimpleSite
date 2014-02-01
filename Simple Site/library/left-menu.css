@@ -10,6 +10,12 @@
  */
 
 /**
+ * We're using CSS3.  It's not supported by older browsers, so we need to 
+ * add the following to ensure compatibility.
+ */
+header, section, footer, aside, nav, article, figure {display:block;}
+
+/**
  * The following section defines attributes that apply to all widths of screen display
  */
 body
@@ -31,6 +37,7 @@ container
 header
 {
   color:black;
+  text-shadow: 2px 2px 1px rgba(128, 128, 255, 1);
   /*background-color:white;*/
   background-image:url('../graphics/seascapes.jpg');
   background-size:cover;
@@ -39,8 +46,19 @@ header
   border-radius:10px 10px 0px 0px;
   text-align:left;
 }
-header h3{font-size:2em;padding:0px;margin:0.8em 10px 0 10px;}
-header p{font-size:1em;font-style:italic;padding:2px 0 5px 0px;margin:0 0 0 20px;}
+header h3
+{
+  font-size:2em;
+  padding:0px;
+  margin:0.8em 10px 0 10px;
+}
+header p
+{
+  font-size:1em;
+  font-style:italic;
+  padding:2px 0 5px 0px;
+  margin:0 0 0 20px;
+}
 header img{height:50px;float:left;margin:30px 10px 0 -90px;}
 banner
 {
