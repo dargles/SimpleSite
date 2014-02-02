@@ -131,6 +131,7 @@ echo("</pre>");*/
     <meta name="generator" content="TrimSite 1.0">
     <meta name="author" content="Haven Consulting: d.argles@gmx.com">
     <link rel="stylesheet" type="text/css" <?php echo("href=\"library/".$this->cssfile."\""); ?>>
+    <!--[if lt IE 9]><script src="html5shiv.js"></script><![endif]-->
     <title><?php echo($this->title); ?></title>
   </head>
 
